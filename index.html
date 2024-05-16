@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação BS</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="script.css">
+</head>
+
+<body class="bg-dark">
+
+
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="search" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      
+      <div class="container mt-5">
+        <div class="row mt-5">
+           <div class="col">
+                
+            <!-- elemento pai principal do accordion-->
+            <div class="accordion" id="accordion">
+            <!-- item 1 do accordion -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header text-light" id="titulo_1">
+                        <button 
+                        class="accordion-button" 
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#area_1"
+                        aria-expanded="true"
+                        aria-controls="titulo_1">Accordion Item #1
+                    </button>
+                    </h2>
+
+                    <div id="area_1" class="accordion-collapse collapse"
+                    aria-labelledby="titulo_1"
+                    data-bs-parent="accordion-body">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto officia est non odio ab tempore quasi, atque error debitis ullam perferendis maiores quisquam veritatis, eos aliquid unde, autem quam!
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- item 2 do accordion -->
+                 <div class="accordion-item">
+                    <h2 class="accordion-header text-light" id="titulo_2">
+                        <button 
+                        class="accordion-button" 
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#area_2"
+                        aria-expanded="true"
+                        aria-controls="titulo_2">Accordion Item #2
+                    </button>
+                    </h2>
+
+                    <div id="area_2" class="accordion-collapse collapse"
+                    aria-labelledby="titulo_2"
+                    data-bs-parent="accordion-body">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ullam laudantium ipsum sit cum omnis blanditiis id facere? Similique cum voluptas commodi unde eius mollitia maxime exercitationem placeat totam voluptatem molestias amet saepe ad itaque facere ut, nihil incidunt illo asperiores in quis esse? Eum, necessitatibus. Harum nihil consectetur incidunt, fugiat corporis amet repellendus doloremque quis. Eligendi quos nihil autem dolores explicabo magnam velit deleniti impedit architecto. Similique, at maiores?
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- item 3 do accordion -->
+                 <div class="accordion-item">
+                    <h2 class="accordion-header text-light" id="titulo_3">
+                        <button 
+                        class="accordion-button" 
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#area_3"
+                        aria-expanded="true"
+                        aria-controls="titulo_3">Accordion Item #3
+                    </button>
+                    </h2>
+
+                    <div id="area_3" class="accordion-collapse collapse"
+                    aria-labelledby="titulo_3"
+                    data-bs-parent="accordion-body">
+                        <div class="accordion-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique officia dolorem consequuntur asperiores necessitatibus quas molestias hic laudantium corrupti voluptatum, saepe et corporis eos facilis sequi amet non in deserunt impedit consectetur adipisci a voluptates quia ipsum. Enim qui hic voluptatum iste fugit nihil, repudiandae ab tempore quae sequi est assumenda debitis tenetur beatae, deserunt aut suscipit cupiditate? Deleniti mollitia sint porro officiis assumenda saepe atque cupiditate!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row mt-5">
+            <div class="col">
+                <!-- 1 infra base para dropdown -->
+                <div class="dropdown">
+                    <button class="btn btn-warning dropdown-toggle"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">Menu dropdown
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Item Um</a></li>
+                        <li><a class="dropdown-item" href="#">Item Dois</a></li>
+                        <li><a class="dropdown-item" href="#">Item Três</a></li>
+
+                        <!-- inserir dropdown divider -->
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 card p-3">
+                <h5 class="title">Título do Card</h5>
+                <h6 class="subtitle mb-2 text-muted">Subtítulo do Card</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dicta sequi,
+                    ut facere reiciendis consectetur, temporibus rerum tempore, minima quo sapiente quam odit. Sapiente
+                    eius perferendis doloribus qui ratione nobis corporis ab necessitatibus odit iure optio laudantium
+                    nulla, rerum repudiandae dolorem quibusdam ullam assumenda, suscipit, nemo consectetur repellat
+                    quisquam quaerat.</p>
+
+
+                <form>
+                    <fieldset>
+                        <legend>Faça seu Login</legend>
+                        <div>
+                            <label for="exampleInputEmail1" class="form-label mt-4">Seu Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="email@exemplo.com">
+                            <small id="emailHelp" class="form-text text-muted">Seu Email será compartilhado com o
+                                governo indiano</small>
+                        </div>
+                        <div>
+                            <label for="exampleInputPassword1" class="form-label mt-4">Senha</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*******"
+                                autocomplete="off">
+                        </div>
+                        <div>
+                            <label for="exampleSelect1" class="form-label mt-4">de 1 a 5 qual sua cor favorita</label>
+                            <select class="form-select" id="exampleSelect1">
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                                <option>E</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="exampleTextarea" class="form-label mt-4">Curiosidades</label>
+                            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                        </div>
+                    </fieldset>
+                </form>
+
+
+                <div class="offcanvas offcanvas-start show text-bg-dark" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkLabel">Offcanvas</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvasDark" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <p>Esse é meu projeto para a Avaliação do BS espero que eu tenha feito tudo</p>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row mt-5">
+            <div class="col text-center mt-5">
+                <button type="button" class="btn btn-lg btn-danger" 
+                    data-bs-toggle="popover"
+                    data-bs-title="Título do popover"
+                    data-bs-placement="bottom"
+                    data-bs-content="E aqui está um conteúdo incrível. É muito envolvente. Certo?">Clique para alternar o popover</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#minhaModal">
+                    Mostrar a modal
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="container mt-5">
+                <div class="row mt-5">
+                    <div class="col-12">
+        
+                        <div id="exemplo" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="bg-info p-5">
+                                        <img src="imgs/CarameloDoMine.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="bg-warning p-5">
+                                        <img src="imgs/chopper.png" class="w-100">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="bg-success p-5">
+                                        <img src="imgs/Maxwell.png">
+                                    </div>
+                                </div>
+        
+                                <!-- controles -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#exemplo"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+        
+                                <button class="carousel-control-next" type="button" data-bs-target="#exemplo"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Próximo</span>
+                                </button>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col"><img src="imgs/maxwell-cat.gif" class="img-fluid"></div>
+            <div class="col"><img src="imgs/rat-spinning.gif" class="img-fluid"></div>
+            <div class="col"><img src="imgs/joel-spin.gif" class="img-fluid"></div>
+        </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="minhaModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Título</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quos eos soluta in provident
+                    corporis maiores eaque!
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Cancelar</button>
+                    <button type="button" class="btn btn-primary">
+                        Aceitar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</body>
+
+</html>
